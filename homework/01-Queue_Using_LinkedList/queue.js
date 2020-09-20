@@ -26,18 +26,15 @@ class Queue {
     }
 
     dequeue() {
-        if (!this.front) {
-            console.log("The queue is empty")
-            return null
-        }
-        let temp = this.front
+        if (!this.front) return null
+        let current = this.front
         if (this.front === this.rear) {
             this.rear = null
         }
         this.front = this.front.next
         this.size -- 
-        console.log('The value being deleted:', temp.value)
-        return temp.value
+        console.log('The value being deleted:', current.value)
+        return current.value
     }
 
     display() {
