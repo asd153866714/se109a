@@ -33,3 +33,11 @@ Data in Queue:
 * 將 temp 指向 front，如果 Queue 只有一個節點( front 和 rear 指向同一個節點)，就將 front 和 rear 設為 null
 * 否則，將 front 指向 front.next
 * 回傳被刪除的節點的值
+
+
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml

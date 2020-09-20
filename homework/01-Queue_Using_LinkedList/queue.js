@@ -40,20 +40,16 @@ class Queue {
         return temp.value
     }
 
-    list() {
-        console.log()
-        console.log(`The size of Queue: ${this.size}`)
-        console.log('Data in Queue:')
-        let current = this.front
-        console.log('--------------------------')
+    display() {
+        let current = this.front,
+            str = '';
         while (current) {
-            console.log(current.value)
+            str += current.value + ' -> '
             current = current.next
         }
-        console.log('--------------------------')
-        console.log()
-
-        return this.size
+        console.log(`The size of Queue: ${this.size}`)
+        console.log(str)
+        return str
     }
 }
 
@@ -61,6 +57,6 @@ let myQueue = new Queue()
 myQueue.enqueue(1)
 myQueue.enqueue(2)
 myQueue.enqueue(3)
-myQueue.list()
+myQueue.display()
 myQueue.dequeue()
-myQueue.list()
+myQueue.display()
