@@ -1,4 +1,6 @@
+// @ts-ignore
 import { assertEquals } from "https://deno.land/std@0.63.0/testing/asserts.ts";
+// @ts-ignore
 import { tail, reverse, intersection } from '../src/my_lodash.ts'
 
 Deno.test('tail', () => {

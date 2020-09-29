@@ -1,3 +1,4 @@
+// @ts-ignore
 import { tail, reverse, intersection } from '../src/my_lodash.ts'
 
 console.log(
