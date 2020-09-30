@@ -1,9 +1,13 @@
 # git 心得報告書
+* 參考 -- [【狀況題】怎麼跟上當初 fork 專案的進度？](https://gitbook.tw/chapters/github/syncing-a-fork.html?fbclid=IwAR36ImNBCVSTobPfA-xq_8jrJPUOIfUKXz7ibo9t3hjC6dscXY1jH1NwTp0)
+
+* 練習
+    * 組織專案 -- https://github.com/hcxing-se109a/mylodash
+    * 個人專案 -- https://github.com/asd153866714/mylodash
 
 # 建立組織
 * 新增 hcxing-se109a 
 * 組織管理員預設是建立的人 ( asd153866714 )
-
 
 ### 在組織內新增 repository
 * 新增 **hcxing-se109a / mylodash**
