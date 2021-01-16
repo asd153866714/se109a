@@ -2,6 +2,8 @@
 
 ## 說明
 
+**快速排序**運用 Divide and Conquer 的概念。Divide：選定 pivot ，挪到陣列邊緣，然後把陣列分成大的一邊和小的一邊。 Conquer：兩邊分別排序。
+
 - 從要排序的陣列中選定一個**基準數 (pivot)**，這裡選擇了陣列中的第一個數。
 - 建立兩個空陣列 left 和 right 分別儲存小於和大於 pivot 的數。
 - 遍歷要排序的陣列，小於或等於 pivot 的數存入 left 陣列，大於 pivot 的數存入 right 陣列。
