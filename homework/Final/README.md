@@ -53,6 +53,38 @@ return [...quickSort(left), pivot, ...quickSort(right)];
 
 ## 測試
 
+測試空陣列
+
+```js
+Deno.test("should return empty array", () => {
+  expect(quickSort([])).toEqual([]);
+});
+```
+
+測試只有一個元素的陣列
+
+```js
+Deno.test("should return an array have 1 element", () => {
+  expect(quickSort([3])).toEqual([3]);
+});
+```
+
+測試未排序過的陣列、有重複元素的陣列
+
+```js
+Deno.test("should return sorted array", () => {
+  let testArray1 = [5, 2, 1, 8, 4, 7, 6, 3];
+  let testArray2 = [34, 25, 78, 67, 109, 1, 18, 76, 200];
+  let testArray3 = [5, 2, 2, 1, 8, 8, 4];
+
+  expect(quickSort(testArray1)).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
+  expect(quickSort(testArray2)).toEqual([1, 18, 25, 34, 67, 76, 78, 109, 200]);
+  expect(quickSort(testArray3)).toEqual([1, 2, 2, 4, 5, 8, 8]);
+});
+```
+
+測試結果
+
 ```
 $ Deno test
 Check file:///D:/Xing/School-Classes/se109a/homework/Final/.deno.test.ts
