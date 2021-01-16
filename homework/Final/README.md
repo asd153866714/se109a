@@ -1,5 +1,10 @@
 # Quick Sort 快速排序
 
+## 參考資料
+
+- [JS 學資料結構與演算法 (排序篇)— 快速排序法 Quick Sort](https://oldmo860617.medium.com/js-%E5%AD%B8%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B%E8%88%87%E6%BC%94%E7%AE%97%E6%B3%95-1-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95-quick-sort-8904e226ad5d)
+- [VisuAlgo - Sorting](https://visualgo.net/en/sorting)
+
 ## 說明
 
 **快速排序**運用 Divide and Conquer 的概念。Divide：選定 pivot ，挪到陣列邊緣，然後把陣列分成大的一邊和小的一邊。 Conquer：兩邊分別排序。
