@@ -1,4 +1,12 @@
+# lodash 測試
+
+1. tail
+2. reverse
+3. intersection
+
 ## 測試結果
+
+分別為 BDD 和 TDD
 
 ```
 $ Deno test
